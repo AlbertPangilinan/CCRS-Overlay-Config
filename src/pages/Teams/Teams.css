@@ -1,0 +1,54 @@
+.teams-list {
+    background-color: white;
+    color: black;
+    margin: 16px auto;
+    overflow-y: scroll;
+    height: 45vh;
+    width: 80vw;
+    font-size: 16px;
+}
+
+.teams-list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.teams-list thead {
+    position: sticky;
+    top: 0;
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.team__header-row {
+    border-bottom: 1px solid black;
+}
+
+.team__field, .team__header {
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+}
+
+.team__primary-color, .team__secondary-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.team__color-preview {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border: 1px solid black;
+}
+
+.team__delete {
+    cursor: pointer;
+    padding-right: 16px;
+}
+
+.team__delete:hover {
+    color: var(--ocrs-red);
+}
